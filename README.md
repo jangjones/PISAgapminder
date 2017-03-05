@@ -5,7 +5,7 @@ library(googleVis)
 library(devtools)
 install_github("mages/googleVis")
 
-PISAdata <- read.csv("https://docs.google.com/spreadsheets/d/1LjLA-k3TfMqgykVAc9sLJ9gtwNu8tq5_oGIgXhkwU5k/edit?usp=sharing, 
+PISAdata <- read.csv("https://github.com/jangjones/PISAgapminder/blob/master/AllPISA.csv", 
   header = TRUE,
   quote="\"",
   stringsAsFactors= TRUE,
