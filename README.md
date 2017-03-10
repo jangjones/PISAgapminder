@@ -37,10 +37,10 @@ plot(chart)
 print(chart, "chart", file="index.html")
 
 # OR 
-# cat(chart, "chart", file="index.html")
+cat(chart, "chart", file="index.html")
 
 # To host this html on GitHub Pages:
-# Upload file to a GitHub Repository
-# Create a new branch from the master branch, calling the new one "gh-pages"
-# Click on the Settings cog icon, and scroll down to GitHub Page to see the http address to view this
+Upload file to a GitHub Repository
+Create a new branch from the master branch, calling the new one "gh-pages"
+Click on the Settings cog icon, and scroll down to GitHub Page to see the http address to view this
 
