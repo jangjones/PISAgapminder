@@ -1367,7 +1367,9 @@ return(data);
 // jsDrawChart
 function drawChartPISAdata1() {
 var data = gvisDataPISAdata1();
-var options = {};
+var options = {
+hAxis: {format:'####'}
+};
 options["width"] = 600;
 options["height"] = 500;
 options["state"] = "\n{\"xAxisOption\":\"2\",\"yAxisOption\":\"4\",\"colorOption\":\"3\",\"dimensions\":{\"iconDimensions\":[\"dim0\"]}}\n";
