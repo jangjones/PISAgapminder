@@ -1371,8 +1371,12 @@ var options = {
 hAxis: {format:'####'},
 vAxis: {format:'####'}
 };
+ options['state'] = "xAxisOption":"_NOTHING";
 options["width"] = 600;
 options["height"] = 500;
+ options["showXMetricPicker"] = false;
+ options["showXScalePicker"] = false;
+ options["showYScalePicker"] = false;
 
     var chart = new google.visualization.MotionChart(
     document.getElementById('PISAdata1')
