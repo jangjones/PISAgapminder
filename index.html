@@ -1368,13 +1368,11 @@ return(data);
 function drawChartPISAdata1() {
 var data = gvisDataPISAdata1();
 var options = {
-hAxis: {format:'none'},
-vAxis: {format:'none'}
+hAxis: {format:'####'},
+vAxis: {format:'####'}
 };
 options["width"] = 600;
 options["height"] = 500;
-options["state"] = "\n{\"xAxisOption\":\"2\",\"yAxisOption\":\"4\",\"colorOption\":\"3\",\"dimensions\":{\"iconDimensions\":[\"dim0\"]}}\n";
-
 
     var chart = new google.visualization.MotionChart(
     document.getElementById('PISAdata1')
